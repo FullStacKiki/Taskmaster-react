@@ -1,15 +1,21 @@
 import { useState } from 'react'
-import Bar from './Components/Bar.jsx'
-import AppInfo from './Components/AppInfo.jsx'
-import { InteractiveGridPattern } from './Components/ui/interactive-grid-pattern.jsx'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from "./Pages/Home.jsx"
+import Pricing from "./Pages/Pricing.jsx"
 
 const App = () => {
   return (
-    <div className="overflow-hidden">
-      <InteractiveGridPattern   className="opacity-30 -z-50"/>
-      <Bar />
-      <AppInfo />
-    </div>
+<Router>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/pricing" element={<Pricing />} />
+
+            </Routes>
+        </Router>
   )
 }
 
