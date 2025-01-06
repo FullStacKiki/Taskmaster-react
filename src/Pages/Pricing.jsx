@@ -60,8 +60,8 @@ const Pricing = () => {
         
         <Card className="min-w-[300px] w-1/2 mx-auto mt-10 border-2 border-green-500">
         <CardHeader>
-            <CardTitle className="font-body text-xl">Premium Subscriptions</CardTitle>
-            <CardDescription className="font-body">Premium Account Plan</CardDescription>
+            <CardTitle className="font-body text-xl">Pro Subscriptions</CardTitle>
+            <CardDescription className="font-body">Pro Account Plan</CardDescription>
         </CardHeader>
         <CardContent>
             <p className="text-xs font-body mt-[-10px] p-2">
