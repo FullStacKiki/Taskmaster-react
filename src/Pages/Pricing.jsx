@@ -34,7 +34,7 @@ const Pricing = () => {
             <CheckRoundedIcon className="text-cyan-500 mr-2"/>Light/Dark theme customization.</p>
         </CardContent>
         <CardFooter>
-            <Button className="border font-body w-1/2 mx-auto shadow-md text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">Free</Button>
+            <Button className="border font-body w-1/2 mx-auto shadow-md text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500 ">Free</Button>
         </CardFooter>
         </Card>
         <Card className="min-w-[300px] w-1/2 mx-auto mt-10 border-2 border-violet-500">
